@@ -15,4 +15,6 @@ Additionally included is code performing hyperparameter search for the beta hype
 
 ![alt text](https://github.com/KKinCoding/Practical-DL-Performance/blob/main/IB_hyperparameter_search.png?raw=true)
 
-Finally, in the Experiment.ipynb notebook, a comparison of the two models for a given hyperparameter set is done to show how the two models differ in their portfolio optimization performance. The portfolio quality metric used is the Sharpe ratio, the maximization of which gives the optimal portfolio. A Sharpe ratio above 2 is considered a good quality portfolio.
+Finally, in the Experiment.ipynb notebook, a comparison of the two models for a given hyperparameter set is done to show how the two models differ in their portfolio optimization performance. The portfolio quality metric used is the Sharpe ratio, the maximization of which gives the optimal portfolio. A Sharpe ratio above 2 is considered a good quality portfolio. The two models ended up having the same Sharpe ratio in fact, but the information bottleneck has smaller loss indicating that the information bottleneck enables the model to have a more stable prediction ability.
+
+![alt text](https://github.com/KKinCoding/Practical-DL-Performance/blob/main/sharpe_ratio_results.png?raw=true)
