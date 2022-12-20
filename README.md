@@ -13,4 +13,6 @@ A100-SXM4-40GB (GPU) | 0:05:42.30 | 0:02:31.59 | 34s | 15s
 
 Additionally included is code performing hyperparameter search for the beta hyperparameter that gives a weight to the information bottleneck loss w.r.t. the reconstruction loss. The data from this search is then plotted for the two loss models (the reconstruction loss model will always have a beta value of 0 of course).
 
+![alt text](https://github.com/KKinCoding/Practical-DL-Performance/blob/main/IB_hyperparameter_search.png?raw=true)
+
 Finally, in the Experiment.ipynb notebook, a comparison of the two models for a given hyperparameter set is done to show how the two models differ in their portfolio optimization performance. The portfolio quality metric used is the Sharpe ratio, the maximization of which gives the optimal portfolio. A Sharpe ratio above 2 is considered a good quality portfolio.
